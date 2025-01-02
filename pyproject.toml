@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "steadfast"
+version = "0.1.0"
+description = ""
+authors = ["Monir Hossain <monir@m2amedia.tv>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pynvim = "^0.5.2"
+pylint = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
